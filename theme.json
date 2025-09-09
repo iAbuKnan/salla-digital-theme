@@ -1,15 +1,12 @@
 {
-  "name": "Salla Digital Theme",
-  "author": "iAbuKnan",
+  "name": "DigitalX Theme",
   "version": "1.0.0",
-  "salla_min_version": "2.0.0",
-  "preview_image": "screenshot.png",
-  "categories": ["digital", "gaming", "electronics"],
-  "sections": {
-    "index": {
-      "name": "Homepage",
-      "type": "page",
-      "blocks": ["header", "features", "products", "faq", "blog", "testimonials", "footer"]
-    }
-  }
+  "author": "iAbuKnan",
+  "templates": {
+    "index": "templates/index.liquid"
+  },
+  "assets": [
+    "assets/style.css"
+  ],
+  "snippets": []
 }
