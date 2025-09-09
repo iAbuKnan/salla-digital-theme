@@ -1,49 +1,12 @@
-<!-- ربط الموارد -->
-<script src="https://cdn.tailwindcss.com"></script>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="{{ 'style.css' | asset_url }}">
-
-<div class="w-full bg-base-800/80 backdrop-blur border-b border-white/5 text-sm">
-  <div class="max-w-7xl mx-auto px-4 py-2 flex items-center justify-between gap-4">
-    <p class="text-white/70">مرحباً بك في {{ store.name }} — أسرع تسليم وأقوى عروض</p>
-    <div class="flex items-center gap-3 text-white/70">
-      <a href="#" class="hover:text-white">تسجيل الدخول</a>
-      <span class="opacity-40">|</span>
-      <a href="#" class="hover:text-white">إنشاء حساب</a>
-    </div>
-  </div>
-</div>
-
-<header class="relative isolate bg-base-800 shadow-glow">
-  <div class="absolute inset-0 bg-nebula"></div>
-  <div class="max-w-7xl mx-auto px-4 py-12 sm:py-16 relative">
-    <h1 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold leading-tight">
-      كل بطاقاتك الرقمية في مكان واحد — <span class="text-primary-500">بسرعة وأمان</span>
-    </h1>
-    <p class="mt-3 text-white/70 max-w-2xl">
-      تسوق البطاقات الرقمية والشحن والألعاب مع {{ store.name }} — تسليم فوري ودعم 24 ساعة.
-    </p>
-  </div>
-</header>
-
-<section id="products" class="py-14 bg-base-900">
-  <div class="max-w-7xl mx-auto px-4">
-    <h2 class="text-2xl sm:text-3xl font-extrabold">الأكثر مبيعًا</h2>
-    <div class="mt-6 grid gap-4 grid-cols-2 sm:grid-cols-3 lg:grid-cols-4">
-      <div class="group p-2 rounded-2xl bg-base-800/80 border border-white/5">
-        <div class="rounded-xl overflow-hidden aspect-[16/10] bg-base-700"></div>
-        <div class="py-3">
-          <h3 class="font-bold truncate">اسم المنتج</h3>
-          <span class="font-extrabold text-lg">89.00 ر.س</span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<footer class="bg-base-900 pt-12">
-  <div class="max-w-7xl mx-auto px-4">
-    <div class="text-2xl font-extrabold">{{ store.name }}</div>
-    <p class="mt-2 text-white/70">© جميع الحقوق محفوظة</p>
-  </div>
-</footer>
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <title>متجري - DigitalX</title>
+  <link href="{{ 'style.css' | asset_url }}" rel="stylesheet">
+</head>
+<body>
+  <h1>مرحباً بك في ثيم DigitalX 🎮</h1>
+  <p>هذا مجرد اختبار للتأكد أن الاستيراد يشتغل من GitHub إلى سلة.</p>
+</body>
+</html>
